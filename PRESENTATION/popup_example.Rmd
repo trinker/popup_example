@@ -1,9 +1,9 @@
 ---
-title      : popup_example
+title      : popup.js Demonstration
 subtitle   : 
 author     : Tyler Rinker
 job        : 
-logo       : 
+logo       : beaker.jpg
 biglogo    : 
 license    : 
 framework  : io2012
