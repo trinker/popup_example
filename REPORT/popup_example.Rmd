@@ -5,27 +5,48 @@
 # popup_example
 ## Tyler Rinker
 ### `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
+
 ---
 
-<a onmouseover="nhpup.popup('Here, a good friend: &lt;br&gt;&lt;/a&gt;&lt;br/&gt; &lt;img src=&quot;http://images4.wikia.nocookie.net/__cb20101015151248/muppet/images/0/05/Beaker.jpg&quot;&gt;', {'width': 140});">a picture (no link)</a> <a href="somewhere.html" onmouseover="nhpup.popup($('#hidden-table').html(), {'width': 400});">a table (linked)</a>
+## About
+
+These slides demonstrate the [popup.js](https://github.com/nhoening/popup.js) mouseover textboxes in the knitr framework.  To view the raw .Rmd files [click here](https://raw.github.com/trinker/popup_example/master/REPORT/popup_example.Rmd).
+
+---
+
+## Examples
+
+*In the following three examples run the cursor over the text segments.*
+
+<a href="somewhere.html" onmouseover="nhpup.popup('Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.');">
+	some text
+</a>  
+
+<a onmouseover="nhpup.popup('Here, a good friend: &lt;br&gt;&lt;/a&gt;&lt;br/&gt; &lt;img src=&quot;http://images4.wikia.nocookie.net/__cb20101015151248/muppet/images/0/05/Beaker.jpg&quot;&gt;', {'width': 140});">
+	a picture
+</a>
+
+
+<a href="somewhere.html" onmouseover="nhpup.popup($('#hidden-table').html(), {'width': 400});">
+	a table
+</a>
+
 
 <div style="display:none;" id="hidden-table">
   <table width="400" border="1">
-    <tbody>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Hans</td>
-            <td>22</td>
-        </tr>
-        <tr>
-            <td>Gretchen</td>
-            <td>22</td>
-        </tr>
-    </tbody>
-</table>
+	<tbody>
+		<tr>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Hans</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			<td>Gretchen</td>
+			<td>22</td>
+		</tr>
+	</tbody>
+  </table>
 </div>
 
-See the .Rmd file for details.

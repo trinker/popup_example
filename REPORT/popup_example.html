@@ -155,13 +155,32 @@ hr {
 
 <hr/>
 
-<p><a onmouseover="nhpup.popup('Here, a good friend: &lt;br&gt;&lt;/a&gt;&lt;br/&gt; &lt;img src=&quot;http://images4.wikia.nocookie.net/__cb20101015151248/muppet/images/0/05/Beaker.jpg&quot;&gt;', {'width': 140});">a picture (no link)</a> <a href="somewhere.html" onmouseover="nhpup.popup($('#hidden-table').html(), {'width': 400});">a table (linked)</a></p>
+<h2>About</h2>
+
+<p>These slides demonstrate the <a href="https://github.com/nhoening/popup.js">popup.js</a> mouseover textboxes in the knitr framework.  To view the raw .Rmd files <a href="https://raw.github.com/trinker/popup_example/master/REPORT/popup_example.Rmd">click here</a>.</p>
+
+<hr/>
+
+<h2>Examples</h2>
+
+<p><em>In the following three examples run the cursor over the text segments.</em></p>
+
+<p><a href="somewhere.html" onmouseover="nhpup.popup('Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.');">
+    some text
+</a>  </p>
+
+<p><a onmouseover="nhpup.popup('Here, a good friend: &lt;br&gt;&lt;/a&gt;&lt;br/&gt; &lt;img src=&quot;http://images4.wikia.nocookie.net/__cb20101015151248/muppet/images/0/05/Beaker.jpg&quot;&gt;', {'width': 140});">
+    a picture
+</a></p>
+
+<p><a href="somewhere.html" onmouseover="nhpup.popup($('#hidden-table').html(), {'width': 400});">
+    a table
+</a></p>
 
 <div style="display:none;" id="hidden-table">
   <table width="400" border="1">
     <tbody>
         <tr>
-            <th>Name</th>
             <th>Age</th>
         </tr>
         <tr>
@@ -173,10 +192,8 @@ hr {
             <td>22</td>
         </tr>
     </tbody>
-</table>
+  </table>
 </div>
-
-<p>See the .Rmd file for details.</p>
 
 </body>
 
