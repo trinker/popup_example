@@ -4,13 +4,13 @@
 
 # popup_example
 ## Tyler Rinker
-### December 27, 2013
+### December 28, 2013
 
 ---
 
 ## About
 
-These slides demonstrate the [popup.js](https://github.com/nhoening/popup.js) mouseover textboxes in the knitr framework.  To view the raw .Rmd files [click here](https://raw.github.com/trinker/popup_example/master/REPORT/popup_example.Rmd).
+This document demonstrate the [popup.js](https://github.com/nhoening/popup.js) mouseover textboxes in the knitr framework.  To view the raw .Rmd files [click here](https://raw.github.com/trinker/popup_example/master/REPORT/popup_example.Rmd).
 
 ---
 
@@ -33,7 +33,7 @@ These slides demonstrate the [popup.js](https://github.com/nhoening/popup.js) mo
 
 
 <div style="display:none;" id="hidden-table">
-  <table width="400" border="1">
+  <table class = "poptable" width="400" border="1">
 	<tbody>
 		<tr>
 			<th>Age</th>
