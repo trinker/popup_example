@@ -3,8 +3,8 @@ title      : popup.js Demonstration
 subtitle   : 
 author     : Tyler Rinker
 job        : 
-logo       : beaker.jpg
-biglogo    : 
+logo       : profile_pic_clipped_rev_1.png
+biglogo    : profile_pic3.png
 license    : 
 framework  : io2012
 highlighter: highlight.js
@@ -12,6 +12,7 @@ hitheme    : tomorrow
 mode       : standalone
 widgets    : [mathjax, quiz, bootstrap]
 ---
+
 
 
 
